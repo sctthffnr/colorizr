@@ -23,19 +23,9 @@ class String
     end
   end
 
-  def self.create_sample_colors
-    @@color_map.each_key do |color|
-      instance_eval(%Q{
-        def sample_#{color}
-          "This is " + "#{color}".#{color}
-        end
-        })
-    end
-  end
-
   def self.sample_colors
     @@color_map.each_key do |color|
-      puts eval("sample_#{color}")
+      puts eval(%Q{'This is ' + '#{color}'.#{color}})
     end
   end
 end
