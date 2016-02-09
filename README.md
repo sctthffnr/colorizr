@@ -14,6 +14,12 @@ light_grey
 light_blue
 white
 
+= Installation =
+
+Installing the gem is as simple as:
+
+gem install colorizr
+
 = Example Usage =
 
 To use the gem, you must first call the create_colors class method on the String

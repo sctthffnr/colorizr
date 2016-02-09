@@ -1,0 +1,9 @@
+My gem takes advantage of metaprogramming by creating methods from key/value pairs in a hash. This allows me to extend the
+methods by creating a new key/value pair in the hash, instead of writing a completely new method.
+
+It didn't take me very long to write the code for this assignment, but it did take me a while to understand the concepts.
+The hardest part of the coding process turned out to be figuring out how to properly quote the string that I passed to
+class_eval so that variable substitution worked properly.
+
+I am pleased that I was able to use metaprogramming in this specially crafted sample project, and I am looking forward to seeing how
+the rails framework uses metaprogramming.
