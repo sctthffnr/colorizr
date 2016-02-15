@@ -18,7 +18,7 @@ white
 
 Installing the gem is as simple as:
 
-gem install colorizr
+  gem install colorizr
 
 = Example Usage =
 
